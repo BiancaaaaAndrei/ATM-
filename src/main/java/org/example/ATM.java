@@ -3,13 +3,13 @@ public class ATM {
     private Bill[] bills;
 
     public ATM(){
-        bills = new Bill[]{new Bill(50, 12),
+        bills = new Bill[]{
                 new Bill(50, 12),
                 new Bill(20, 20),
                 new Bill(10, 50),
-                new Bill(10, 50),
                 new Bill(2, 250),
-                new Bill(1, 500)};
+                new Bill(1, 500)
+        };
     }
     public void withdrawValue(int amount){
         System.out.println("Customer withdraws  " + amount);

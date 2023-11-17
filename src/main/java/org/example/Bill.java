@@ -18,6 +18,7 @@ public class Bill {
     }
 
     public void substractQuantity(int billsToTake) {
+
         quantity -= billsToTake;
     }
 }
